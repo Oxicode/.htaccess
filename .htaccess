@@ -1,7 +1,8 @@
 # This .htaccess file is used to speed up this website
 # See https://github.com/Oxicode/.htaccess
 
-
+# Bloquear acceso a la carpeta .GIT
+RedirectMatch 404 /\.git
 # ----------------------------------------------------------------------
 # Proper MIME type for all files
 # ----------------------------------------------------------------------
